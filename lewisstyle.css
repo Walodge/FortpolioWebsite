@@ -1,0 +1,80 @@
+:root {
+    /* size of the square image links */
+    --link-img-size:100px;
+    --first-color: rgb(192, 70, 0);
+    --second-color: #fafafa;
+}
+
+.square-link-images {
+    /* sets size to use same length */
+    width: var(--link-img-size);
+    height: var(--link-img-size);
+    /* crops excess image area to size */
+    object-fit:cover;
+    fill: var(--first-color)
+}
+
+.center {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    /* temporary border for testing */
+    border: 2px dotted var(--first-color)
+}
+
+.post-container{
+    max-width: 600px;
+    width: fit-content;
+    overflow-wrap: break-word;
+}
+
+/* applies to whole document */
+html {
+    color: var(--first-color);
+    background-color: var(--second-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr{
+    border-style: solid;
+    color: var(--first-color);
+}
+
+/* hovering over stuff */
+a:hover{
+    background-color:rgb(20, 20, 22);
+}
+
+
+
+
+
+
+
+/* classes examples */
+img.stinkydawg {
+    border-radius: 20px;
+}
+
+img.fidjaos {
+    margin-left: 50px;
+}
+
+div.poop {
+    border: solid 5px green;
+    margin: 20px;
+    display: inline-block;
+    background-color: brown;
+}
+
+.piss {
+    margin: 20px;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+
+
