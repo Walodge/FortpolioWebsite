@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../lewisstyle.css">
+    <title>SpinoRig</title>
+</head>
+
+<body>
+    <div class="center">
+        <h1>Frontier Games Masterclass: Spinosaurus Auto Rigging</h1>
+        <video class="main-video" src="SpinoShowOffMixed.mp4" loop autoplay></video>
+        <div class="main-text">
+            In 3rd year, for the masterclass module I got to work with Frontier Games.
+            They provided this game ready spinosaurs model and I had to rig it.
+        </div>
+        <div class="doublecolumns">
+            <div class="small-text">
+                <p>This was my first full body rig I had done. 
+                Used maya's python code to create an auto rigging script 
+                sped up iterations and changes.</p>
+
+                <p>The rig has controls for each part, with visibility toggles, 
+                fk ik switching and blending (except the tail).
+                A mistake I made was to not script the placement of these 
+                controls, repeatedely remaking controls manually wasted time.</p>
+            </div>
+            <video class="medium-video" src="SpinoArmFKIK.mp4" loop autoplay></video>
+        </div>
+        <div class="doublecolumns">
+            <video class="medium-video" src="SpinoLeg.mp4" loop autoplay></video>
+            <div class="small-text">
+                <p>I mainly focused on the legs and feet controls.</p>
+                <p>The Legs are a three bone setup using 3 ik chains.<br>
+                The feet have working foot roll, bank, aswell as
+                heel twist, toe twist, and toe tap, for easier and quicker posing.</p>
+                <p>To improve this further I would figure out a solution to 
+                    have FK controls for the claws mixed in with the IK controls</p>
+            </div>
+        </div>
+        <div class="doublecolumns">
+            <div class="small-text">
+                <p>Following advice from lecturers from frontier games the tail's 
+                fk controls has secondary fk controls to rotate two joints at once, 
+                halfing the number of clicks the animator needs to control the tail.</p>
+                <p>They also adviced to not bother with an IK for the tail, as unless
+                the end of the tail is being used to grab or hold onto something,
+                like a monkey would, there is not much benefit.
+                </p>
+            </div>
+            <video class="medium-video" src="SpinoTail.mp4" loop autoplay></video>
+        </div>
+        <div class="main-text">
+            I learnt alot from making this first rig. 
+            <p>To improve this I could add fk ik matching so when switching between the two
+            , the animator could choose to match the joints position first.</p>
+            <p>More dynamics to the tail and other parts, more controls around the face,
+            blendshapes, or more options for locking parts of the rig would improve this.
+            </p>
+            <p>Still pretty chuffed with this first rig, so here's another lil shimmy 
+                I animated in a bit less than an hour using this rig.</p>
+        </div>
+        <video class="main-video" src="SpinoSpinMixed.mp4" loop autoplay></video>
+        <a href = "../index.html" style='margin-top:30px;margin-bottom:30px'> Return to Home</a>
+
+        
+    </div>
+</body>
+
+</html>
